@@ -1,0 +1,94 @@
+/* ------------ SECTION 1 ------------  */
+h2 {
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  height: inherit;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#videoDescription {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-left: 40px;
+  max-width: 853px;
+}
+
+#videoDescription iframe {
+  max-height: 853px;
+  width: inherit;
+  height: 480px;
+  border-radius: 10px;
+}
+
+.detailsVideos {
+  display: flex;
+  width: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detailsVideos img {
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.channelDetails {
+  margin: 0;
+}
+
+.channelDetails p {
+  font-weight: lighter;
+  font-size: 0.7rem;
+  color: rgb(88, 88, 88);
+}
+
+.feedback {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  font-weight: 500;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 6px;
+  cursor: pointer;
+  align-content: center;
+  align-items: center;
+}
+
+.bi-download,
+.bi-share,
+.bi-hand-thumbs-down,
+.bi-hand-thumbs-up {
+  font-size: 20px;
+}
+
+.detailsMoreSpecifics {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.containerText{
+    width: inherit;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px  0;
+    padding: 0 20px;
+    background-color: #F2F2F2;
+}
+
+.descriptionText{
+    width: 70%;
+}
+/* ------------ SECTION 2 ------------  */;
