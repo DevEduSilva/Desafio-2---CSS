@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 15px;
+  max-height: 30px;
+  margin: 0 20px;
+}
+
+/* ------------ CANTO SUPERIOR ESQUERDO ------------ */
+.options {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.options .bi-list {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.options img {
+  object-fit: fill;
+  height: 20px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+/* ------------ MEIO ------------ */
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  height: 40px;
+  width: 394px;
+  border-radius: 60px;
+}
+
+.searchCampo {
+  flex: 1;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 14px;
+  color:#C9CBC9;
+}
+
+.searchPesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0F0F0;
+  width: 30px;
+  height: inherit;
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+}
+
+/*--------------- CANTO SUPERIOR DIREITO ---------------*/
+.userOptions {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.userOptions .bi-bell,
+.userOptions .bi-camera-video {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.userOptions .profile {
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+}
