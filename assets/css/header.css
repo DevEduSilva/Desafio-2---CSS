@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   display: flex;
   flex-flow: row nowrap;
@@ -30,6 +34,11 @@ header {
 .searchBox {
   display: flex;
   align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 22px;
   border: 1px solid #dadada;
   height: 40px;
   width: 394px;
@@ -41,14 +50,14 @@ header {
   margin: 0;
   padding-left: 20px;
   font-size: 14px;
-  color:#C9CBC9;
+  color: #c9cbc9;
 }
 
 .searchPesquisa {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   width: 30px;
   height: inherit;
   border-radius: inherit;
