@@ -1,3 +1,7 @@
+main {
+  display: flex;
+}
+
 /* ------------ SECTION 1 ------------  */
 h2 {
   font-weight: 700;
@@ -20,7 +24,7 @@ button {
 #videoDescription {
   display: flex;
   flex-flow: column nowrap;
-  padding-left: 40px;
+  padding: 0 15px 0 40px;
   max-width: 853px;
 }
 
@@ -79,16 +83,52 @@ button {
   font-weight: 500;
 }
 
-.containerText{
-    width: inherit;
-    text-align: justify;
-    border-radius: 10px;
-    margin: 10px  0;
-    padding: 0 20px;
-    background-color: #F2F2F2;
+.containerText {
+  width: inherit;
+  text-align: justify;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 0 20px;
+  background-color: #f2f2f2;
 }
 
-.descriptionText{
-    width: 70%;
+.descriptionText {
+  width: 70%;
 }
-/* ------------ SECTION 2 ------------  */;
+
+/* ------------ SECTION 2 ------------  */
+h3{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.recommended img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.recommendedDescription {
+  display: flex;
+  flex-flow: column;
+  gap: 110px;
+}
+
+.recommended {
+  display: flex;
+  height: 110px;
+  flex-flow: row nowrap;
+  gap: 16px;
+  margin: 10px 0;
+}
+.detailRecommended {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+
+.detailInformationLess {
+  font-weight: lighter;
+  font-size: 0.8rem;
+  color: #606060;
+}
